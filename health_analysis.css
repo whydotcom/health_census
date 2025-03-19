@@ -8,8 +8,17 @@
 nav {
     background-color: #f0f0f0;
     padding: 20px;
+
+    /* assists in making the elements fit together on the same horizontal line */
     display: flex;
+
+    /* this aligns it to center vertically. */
     align-items: center;
+    
+    /* creates space inbetween elements held within
+    container that the elements are being held in. 
+    in this case, the container is nav, and the elements are
+    h1 and the ul tag. */
     justify-content: space-between;
     
   }
